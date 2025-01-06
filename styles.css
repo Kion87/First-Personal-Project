@@ -1,0 +1,83 @@
+/*General website CSS*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Header and footer section */
+.header,
+.hero,
+.footer {
+  background-color: #1f2937;
+  padding: 20px;
+}
+
+/*Header section */
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 700;
+}
+.navigation {
+  font-size: 18px;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation ul {
+  display: flex;
+  list-style: none;
+  gap: 16px;
+}
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+/* Hero section */
+.hero .container {
+  display: flex;
+  gap: 40px;
+  padding: 36px 0px 72px 0px;
+  align-items: flex-start;
+}
+.hero .left {
+  flex: 0.4;
+  width: 40%;
+}
+
+.hero .right {
+  flex: 0.6;
+  width: 60%;
+}
+.hero .right img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.left h1 {
+  font-size: 48px;
+  color: #f9faf8;
+}
+.left p {
+  font-size: 18px;
+  color: #e5e7eb;
+  padding: 10px 0 20px 0;
+}
+.left button {
+  padding: 5px 30px;
+  background-color: #3882f6;
+  border: none;
+  color: #f9faf8;
+  border-radius: 8px;
+}
