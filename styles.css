@@ -162,7 +162,6 @@ a {
 }
 .footer div {
   display: flex;
-  flex: 1;
   justify-content: center;
   align-items: center;
   color: #f9faf8;
