@@ -13,7 +13,7 @@ body {
 .hero,
 .footer {
   background-color: #1f2937;
-  padding: 20px;
+  padding: 32px;
 }
 
 /*Header section */
@@ -36,7 +36,7 @@ body {
 .navigation ul {
   display: flex;
   list-style: none;
-  gap: 16px;
+  gap: 32px;
 }
 a {
   text-decoration: none;
@@ -48,7 +48,7 @@ a {
   display: flex;
   gap: 40px;
   padding: 36px 0px 72px 0px;
-  align-items: flex-start;
+  align-items: center;
 }
 .hero .left {
   flex: 0.4;
@@ -63,6 +63,7 @@ a {
   max-width: 100%;
   height: auto;
   display: block;
+  border-radius: 8px;
 }
 
 .left h1 {
@@ -72,12 +73,97 @@ a {
 .left p {
   font-size: 18px;
   color: #e5e7eb;
-  padding: 10px 0 20px 0;
+  padding: 14px 0 24px 0;
 }
 .left button {
-  padding: 5px 30px;
+  padding: 8px 40px;
   background-color: #3882f6;
   border: none;
   color: #f9faf8;
   border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Cards section */
+#cards-title {
+  text-align: center;
+  font-size: 42px;
+  font-weight: bold;
+  padding: 64px 0px;
+}
+.cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 60px;
+  padding-bottom: 112px;
+}
+.card {
+  max-width: 260px;
+  display: flex;
+  flex-direction: column;
+}
+.card img {
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px indigo;
+}
+.card p {
+  text-align: center;
+  padding: 16px 0px;
+  font-size: 20px;
+}
+
+/* Quote section */
+#quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #e5e7eb;
+  height: 460px;
+}
+#quote p {
+  margin: 0 auto;
+  width: 600px;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+}
+#quote .author {
+  text-align: right;
+  margin-top: 20px;
+}
+
+/*Action section*/
+.action-container {
+  width: 1000px;
+  margin: 140px auto;
+  background-color: #3882f6;
+  padding: 48px 76px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #f9faf8;
+  border-radius: 8px;
+}
+.action-header {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.action-btn button {
+  background-color: inherit;
+  padding: 8px 40px;
+  border: 2px solid white;
+  border-radius: 5px;
+  color: inherit;
+  font-weight: 700;
+  font-size: 16px;
+}
+.footer div {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  color: #f9faf8;
 }
